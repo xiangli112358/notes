@@ -9,7 +9,8 @@ uname -a (kernel name, release, version; host name; processor architecture etc)
 	* cat /proc/cpuinfo
 	```
 	cat /proc/cpuinfo
-	cat /proc/cpuinfo | grep processor | wc -l (query number of processors or cores)	cat /proc/cpuinfo | grep 'clflush size' (query cache line size)
+	cat /proc/cpuinfo | grep processor | wc -l (query number of processors or cores)  
+	cat /proc/cpuinfo | grep 'clflush size' (query cache line size)
 	```
 	
 	> Each processor or core is listed seperately, the number of processors shown by /proc/cpuinfo
