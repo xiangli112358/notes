@@ -1,4 +1,4 @@
-# Autoump
+# Autojump
 [Autojump](https://github.com/wting/autojump) is a enhancement of `cd` command tool. It is a faster way to navigate your file system, 
 by maintaining a database of the directories you use the most from the command line. Autojump is not a replacement of `cd` command, 
 directories must be visited first before they can be jumped to.
